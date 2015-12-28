@@ -5,6 +5,8 @@ public class Supermarket {
     private PersonQueue queue;
 
     public Supermarket() {
+        // Choice of array or linked list implementation
+        // queue = new PersonQueueArrayImpl();
         queue = new PersonQueueListImpl();
     }
 
